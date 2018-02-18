@@ -1,10 +1,10 @@
-export default function imgLoaded(el) {
+export default function isImageLoadedAsync(el) {
 	if (el instanceof NodeList) {
 		if (el.length < 1) {
 			return Promise.reject(`Error: ${el} is empty.`)
 		}
 
-		return Promise.all(Array.prototype.map.call(el, img => imgLoaded(img)))
+		return Promise.all(Array.prototype.map.call(el, img => isImageLoadedAsync(img)))
 	} else if (el instanceof Node) {
 		if (el.tagName.toLowerCase() !== "img") {
 			return Promise.reject(`Error: ${el} is not a img tag.`)

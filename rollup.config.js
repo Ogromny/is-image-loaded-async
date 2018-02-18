@@ -8,7 +8,7 @@ export default [
 	{
 		input  : "src/is-image-loaded-async.js",
 		output : {
-			name  : "is-image-loaded-async",
+			name  : "isImageLoadedAsync",
 			file  : pkg.unpkg,
 			format: "umd"
 		},
