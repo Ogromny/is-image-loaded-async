@@ -1,0 +1,23 @@
+{
+	"name": "is-image-loaded-async",
+	"version": "1.0.0",
+	"description": "Returns a Promise when one or more images are loaded. < 1 Kb Gziped. Dependencies free.",
+	"main": "dist/is-image-loaded-async.common.js",
+	"module": "dist/is-image-loaded-async.esm.js",
+	"unpkg": "dist/is-image-loaded-async.umd.min.js",
+	"repository": "https://github.com/Ogromny/is-image-loaded-async",
+	"author": "Ogromny",
+	"license": "MIT",
+	"scripts": {
+		"build": "rollup -c rollup.config.js"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"rollup": "^0.56.1",
+		"rollup-plugin-babel": "^3.0.3",
+		"rollup-plugin-commonjs": "^8.3.0",
+		"rollup-plugin-node-resolve": "^3.0.3",
+		"rollup-plugin-uglify": "^3.0.0"
+	}
+}
