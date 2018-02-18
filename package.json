@@ -1,6 +1,6 @@
 {
 	"name": "is-image-loaded-async",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Returns a Promise when one or more images are loaded. < 1 Kb Gziped. Dependencies free.",
 	"main": "dist/is-image-loaded-async.common.js",
 	"module": "dist/is-image-loaded-async.esm.js",
